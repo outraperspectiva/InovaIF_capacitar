@@ -1,10 +1,13 @@
 {
+  "homepage": "http://outraperspectiva.github.io/InovaIF_capacitar",
   "name": "inovaif-capacitar",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy":"nmp run build",
+    "deploy":"gh-pages -d build", 
     "build": "vite build",
     "preview": "vite preview"
   },
